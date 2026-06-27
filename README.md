@@ -36,3 +36,31 @@ Next week: Add actual Gemini calls and start building RAG logic.
 
 Key Learning: Always keep API keys server-side and never hardcode them.
 
+
+
+\## Week 6 Progress - Multi-Step Execution
+
+
+
+\- Updated the /test-gemini endpoint to perform multi-step execution.
+
+\- Step 1: Generate a short outline using Gemini.
+
+\- Step 2: Use the outline from Step 1 to create a full detailed response.
+
+\- Successfully tested the endpoint — the final answer now depends on the first step.
+
+\- Learned how to chain multiple AI calls together inside the backend.
+
+
+
+Challenges: 
+
+\- Fixed Python indentation errors.
+
+\- Troubleshot model names and rate limits on the free Gemini tier.
+
+
+
+This multi-step approach is important because real AI systems often need several stages to produce better, more structured results.
+

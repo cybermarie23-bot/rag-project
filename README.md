@@ -16,3 +16,23 @@
 
 Next week: Add actual Gemini calls and start building RAG logic.
 
+
+
+\## Week 5 Progress
+
+
+
+\- Successfully implemented first Gemini API call in backend
+
+\- Created /test-gemini endpoint that returns AI-generated response
+
+\- Learned how to use google-generativeai SDK
+
+\- API key is securely loaded from .env file (never exposed)
+
+\- Understood basic structure of calling LLMs from backend
+
+
+
+Key Learning: Always keep API keys server-side and never hardcode them.
+
